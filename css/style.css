@@ -7,7 +7,7 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   font-size:15px;
   line-height:1.5;
-  background-color:  silver;
+  background-color:  #aaabb8;
   }
 /* Global */
 .container{
@@ -21,8 +21,30 @@ body{
 }
 
 
+.fieldset{
+	border-radius: 10px
+}
+
+.record-container{
+	display: flex;
+	flex-direction: row;
+}
+
+.record-container div{
+	border: 1px #ccc solid;
+	padding: 10px;
+	background: #fbeec1;
+	border-radius: 10px;
+
+}
+
+.records_link{
+	text-decoration: none;
+}
+
+
 header{
-	background-color: rgba(13, 10, 14, 0.42);
+	background-color: #3b8beb;
 	color:white;
 	padding-top: 30px;
 	min-height: 70px;
@@ -36,24 +58,29 @@ header{
 }
 
 
-#form_1 form{
-	float: center;
-}
-
-
 #form{
 	width:50%;
 	margin: 10px auto 10px auto;
 	text-align: center;
 	padding: 50px;
-	border: 20px solid #0088dd;
-	box-shadow: 5px 5px 5px 5px #777777;
+	border: 20px solid #e4c580;
+	box-shadow: 5px 5px 5px 5px #e4c580;
 	border-radius: 10px;
 
 }
 
+.sign_link{
+	align-items: center;
+	justify-content: center;
+}
+
+
+.my_input{
+	border-radius: 10px;
+}
+
 footer{
-	background-color:rgba(13, 10, 14, 0.42) ;
+	background-color:#3b8beb;
 	padding: 20px;
 	text-align: center;
 	margin-top: 20px;
@@ -65,17 +92,24 @@ footer{
 }
 
 .button1{
-	color: #ffffff;
-	background: #0088dd;
+	color: 080f5b;
+	background: #3b8beb;
 	align-self: center;
+	width: 30%;
+	border-radius: 10px;
+}
+btn{
+	color: 080f5b;
+	background: #3b8beb;
 
 }
-@media screen and (max-width: 768px){
-	.container h1,
-	form{
-		width:100%;
-		text-align:center;
-	}
 
-
+.form-container{
+	display: flex;
+	flex-direction: column;
 }
+
+
+
+
+
