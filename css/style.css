@@ -1,9 +1,13 @@
-
+/*{
+	margin: 0;
+	padding: 0;
+}
+*/
 body{
   font-family: Arial, Helvetica, sans-serif;
   font-size:15px;
   line-height:1.5;
-  background-color:  #aaabb8;
+  background-color:  #c2cad0;
   }
 /* Global */
 .container{
@@ -41,8 +45,17 @@ body{
 .container-3{
 	display: flex;
 	flex-direction: row;
-	background: #edf5e1;
 
+}
+.container-4{
+	display: flex;
+	flex-direction: row;
+}
+
+.container-4 div{
+	border: 1px #ccc solid;
+	padding: 10px;
+	background: #fbeec1;
 }
 
 .red-flags-container{
@@ -50,13 +63,9 @@ body{
 }
 
 .table{
-	border-style: inset;
+	flex-direction: column;
+	flex-basis: 2%;
 	background: #5cdb95;
-
-}
-.profile_picture{
-	font-style: italic;
-	font-weight: bold;
 }
 
 .container-3 div{
@@ -150,18 +159,10 @@ body{
 	overflow: hidden;
 
 }
+
 .flex-container{
-	display: flex;
-	flex-direction: column;
-
+	flex: 1;
 }
-
-.flex-container div {
-	border: 1px #ccc solid;
-	padding: 10px;
-}
-
-
 
 .par{
 	font-size: 20px;
@@ -187,14 +188,14 @@ header{
 	display: flex;
 	flex-direction: column;
 }
-.link-container-1{
+.link-container-2{
 	
 	justify-content: center;
 	align-self: center;
 	color: #ffe400;
 
 }
-.link-container-1 a{
+.link-container-2 a{
 	color:#05386b;
   	text-decoration:none;
   	text-transform: uppercase;
@@ -203,16 +204,16 @@ header{
 
 
 
-.link-container-1 a:hover{
+.link-container-2 a:hover{
   color:#d6ce15;
   font-weight:bold;
 }
-.link-container-1 li{
+.link-container-2 li{
 	list-style: none;
 
 }
 
-.link-container-1 nav{
+.link-container-2 nav{
 	align-self: 
 	display:inline-block;
 }
